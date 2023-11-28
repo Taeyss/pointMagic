@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF2C2CC32B158C870099F729 /* pointMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C2CC22B158C870099F729 /* pointMagicApp.swift */; };
+		EF2C2CC52B158C870099F729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C2CC42B158C870099F729 /* ContentView.swift */; };
+		EF2C2CC72B158C870099F729 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C2CC62B158C870099F729 /* Item.swift */; };
+		EF2C2CC92B158C8B0099F729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2C2CC82B158C8B0099F729 /* Assets.xcassets */; };
+		EF2C2CCC2B158C8B0099F729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF2C2CCB2B158C8B0099F729 /* Preview Assets.xcassets */; };
+		EF2C2CD82B158C8B0099F729 /* pointMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C2CD72B158C8B0099F729 /* pointMagicTests.swift */; };
+		EF2C2CE22B158C8B0099F729 /* pointMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C2CE12B158C8B0099F729 /* pointMagicUITests.swift */; };
+		EF2C2CE42B158C8B0099F729 /* pointMagicUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2C2CE32B158C8B0099F729 /* pointMagicUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF2C2CD42B158C8B0099F729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2C2CB72B158C870099F729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2C2CBE2B158C870099F729;
+			remoteInfo = pointMagic;
+		};
+		EF2C2CDE2B158C8B0099F729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF2C2CB72B158C870099F729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF2C2CBE2B158C870099F729;
+			remoteInfo = pointMagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF2C2CBF2B158C870099F729 /* pointMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pointMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2C2CC22B158C870099F729 /* pointMagicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointMagicApp.swift; sourceTree = "<group>"; };
+		EF2C2CC42B158C870099F729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF2C2CC62B158C870099F729 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EF2C2CC82B158C8B0099F729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF2C2CCB2B158C8B0099F729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF2C2CCD2B158C8B0099F729 /* pointMagic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pointMagic.entitlements; sourceTree = "<group>"; };
+		EF2C2CCE2B158C8B0099F729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF2C2CD32B158C8B0099F729 /* pointMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2C2CD72B158C8B0099F729 /* pointMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointMagicTests.swift; sourceTree = "<group>"; };
+		EF2C2CDD2B158C8B0099F729 /* pointMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pointMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF2C2CE12B158C8B0099F729 /* pointMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointMagicUITests.swift; sourceTree = "<group>"; };
+		EF2C2CE32B158C8B0099F729 /* pointMagicUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pointMagicUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF2C2CBC2B158C870099F729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C2CD02B158C8B0099F729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C2CDA2B158C8B0099F729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF2C2CB62B158C870099F729 = {
+			isa = PBXGroup;
+			children = (
+				EF2C2CC12B158C870099F729 /* pointMagic */,
+				EF2C2CD62B158C8B0099F729 /* pointMagicTests */,
+				EF2C2CE02B158C8B0099F729 /* pointMagicUITests */,
+				EF2C2CC02B158C870099F729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF2C2CC02B158C870099F729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C2CBF2B158C870099F729 /* pointMagic.app */,
+				EF2C2CD32B158C8B0099F729 /* pointMagicTests.xctest */,
+				EF2C2CDD2B158C8B0099F729 /* pointMagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF2C2CC12B158C870099F729 /* pointMagic */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C2CC22B158C870099F729 /* pointMagicApp.swift */,
+				EF2C2CC42B158C870099F729 /* ContentView.swift */,
+				EF2C2CC62B158C870099F729 /* Item.swift */,
+				EF2C2CC82B158C8B0099F729 /* Assets.xcassets */,
+				EF2C2CCD2B158C8B0099F729 /* pointMagic.entitlements */,
+				EF2C2CCE2B158C8B0099F729 /* Info.plist */,
+				EF2C2CCA2B158C8B0099F729 /* Preview Content */,
+			);
+			path = pointMagic;
+			sourceTree = "<group>";
+		};
+		EF2C2CCA2B158C8B0099F729 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C2CCB2B158C8B0099F729 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF2C2CD62B158C8B0099F729 /* pointMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C2CD72B158C8B0099F729 /* pointMagicTests.swift */,
+			);
+			path = pointMagicTests;
+			sourceTree = "<group>";
+		};
+		EF2C2CE02B158C8B0099F729 /* pointMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF2C2CE12B158C8B0099F729 /* pointMagicUITests.swift */,
+				EF2C2CE32B158C8B0099F729 /* pointMagicUITestsLaunchTests.swift */,
+			);
+			path = pointMagicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF2C2CBE2B158C870099F729 /* pointMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2C2CE72B158C8B0099F729 /* Build configuration list for PBXNativeTarget "pointMagic" */;
+			buildPhases = (
+				EF2C2CBB2B158C870099F729 /* Sources */,
+				EF2C2CBC2B158C870099F729 /* Frameworks */,
+				EF2C2CBD2B158C870099F729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pointMagic;
+			productName = pointMagic;
+			productReference = EF2C2CBF2B158C870099F729 /* pointMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF2C2CD22B158C8B0099F729 /* pointMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2C2CEA2B158C8B0099F729 /* Build configuration list for PBXNativeTarget "pointMagicTests" */;
+			buildPhases = (
+				EF2C2CCF2B158C8B0099F729 /* Sources */,
+				EF2C2CD02B158C8B0099F729 /* Frameworks */,
+				EF2C2CD12B158C8B0099F729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2C2CD52B158C8B0099F729 /* PBXTargetDependency */,
+			);
+			name = pointMagicTests;
+			productName = pointMagicTests;
+			productReference = EF2C2CD32B158C8B0099F729 /* pointMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF2C2CDC2B158C8B0099F729 /* pointMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF2C2CED2B158C8B0099F729 /* Build configuration list for PBXNativeTarget "pointMagicUITests" */;
+			buildPhases = (
+				EF2C2CD92B158C8B0099F729 /* Sources */,
+				EF2C2CDA2B158C8B0099F729 /* Frameworks */,
+				EF2C2CDB2B158C8B0099F729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF2C2CDF2B158C8B0099F729 /* PBXTargetDependency */,
+			);
+			name = pointMagicUITests;
+			productName = pointMagicUITests;
+			productReference = EF2C2CDD2B158C8B0099F729 /* pointMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF2C2CB72B158C870099F729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EF2C2CBE2B158C870099F729 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					EF2C2CD22B158C8B0099F729 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EF2C2CBE2B158C870099F729;
+					};
+					EF2C2CDC2B158C8B0099F729 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = EF2C2CBE2B158C870099F729;
+					};
+				};
+			};
+			buildConfigurationList = EF2C2CBA2B158C870099F729 /* Build configuration list for PBXProject "pointMagic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF2C2CB62B158C870099F729;
+			productRefGroup = EF2C2CC02B158C870099F729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF2C2CBE2B158C870099F729 /* pointMagic */,
+				EF2C2CD22B158C8B0099F729 /* pointMagicTests */,
+				EF2C2CDC2B158C8B0099F729 /* pointMagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF2C2CBD2B158C870099F729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2C2CCC2B158C8B0099F729 /* Preview Assets.xcassets in Resources */,
+				EF2C2CC92B158C8B0099F729 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C2CD12B158C8B0099F729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C2CDB2B158C8B0099F729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF2C2CBB2B158C870099F729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2C2CC52B158C870099F729 /* ContentView.swift in Sources */,
+				EF2C2CC72B158C870099F729 /* Item.swift in Sources */,
+				EF2C2CC32B158C870099F729 /* pointMagicApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C2CCF2B158C8B0099F729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2C2CD82B158C8B0099F729 /* pointMagicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF2C2CD92B158C8B0099F729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2C2CE22B158C8B0099F729 /* pointMagicUITests.swift in Sources */,
+				EF2C2CE42B158C8B0099F729 /* pointMagicUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF2C2CD52B158C8B0099F729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2C2CBE2B158C870099F729 /* pointMagic */;
+			targetProxy = EF2C2CD42B158C8B0099F729 /* PBXContainerItemProxy */;
+		};
+		EF2C2CDF2B158C8B0099F729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF2C2CBE2B158C870099F729 /* pointMagic */;
+			targetProxy = EF2C2CDE2B158C8B0099F729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF2C2CE52B158C8B0099F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF2C2CE62B158C8B0099F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF2C2CE82B158C8B0099F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pointMagic/pointMagic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pointMagic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pointMagic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdios.pointMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF2C2CE92B158C8B0099F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = pointMagic/pointMagic.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"pointMagic/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pointMagic/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdios.pointMagic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF2C2CEB2B158C8B0099F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdios.pointMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pointMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pointMagic";
+			};
+			name = Debug;
+		};
+		EF2C2CEC2B158C8B0099F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdios.pointMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pointMagic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/pointMagic";
+			};
+			name = Release;
+		};
+		EF2C2CEE2B158C8B0099F729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdios.pointMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pointMagic;
+			};
+			name = Debug;
+		};
+		EF2C2CEF2B158C8B0099F729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdios.pointMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pointMagic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF2C2CBA2B158C870099F729 /* Build configuration list for PBXProject "pointMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2C2CE52B158C8B0099F729 /* Debug */,
+				EF2C2CE62B158C8B0099F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2C2CE72B158C8B0099F729 /* Build configuration list for PBXNativeTarget "pointMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2C2CE82B158C8B0099F729 /* Debug */,
+				EF2C2CE92B158C8B0099F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2C2CEA2B158C8B0099F729 /* Build configuration list for PBXNativeTarget "pointMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2C2CEB2B158C8B0099F729 /* Debug */,
+				EF2C2CEC2B158C8B0099F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF2C2CED2B158C8B0099F729 /* Build configuration list for PBXNativeTarget "pointMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF2C2CEE2B158C8B0099F729 /* Debug */,
+				EF2C2CEF2B158C8B0099F729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF2C2CB72B158C870099F729 /* Project object */;
+}
